@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Links e projetos de Pedro Aruanã, desenvolvedor front-end.">
+  <title>Pedro Aruanã — DevLinks</title>
+  <link rel="icon" type="image/avif" href="mascot-secret-agent-logo-design-vector-57370485.avif">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="bg-grid"></div>
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+  <div class="bg-glow glow-3"></div>
+
+  <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+    <span class="icon-sun">☀️</span>
+    <span class="icon-moon">🌙</span>
+  </button>
+
+  <main class="container">
+
+    <div class="terminal-window">
+      <div class="terminal-bar">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="terminal-title">~/pedro-aruana</span>
+      </div>
+      <div class="terminal-body">
+        <p class="line"><span class="prompt">$</span> whoami</p>
+        <p class="line output"></p>
+        <p class="line"><span class="prompt">$</span> cat status.txt</p>
+        <p class="line output"><span class="cursor">_</span></p>
+      </div>
+    </div>
+
+    <div class="profile">
+      <div class="avatar-ring">
+        <img src="mascot-secret-agent-logo-design-vector-57370485.avif" alt="Pedro Aruanã" class="avatar">
+      </div>
+      <h1>Pedro Aruanã</h1>
+      <p class="role">Front-end Developer · React · Node.js</p>
+    </div>
+
+    <nav class="links" aria-label="Meus links">
+
+      <a href="https://github.com/Pedroaruana" target="_blank" rel="noopener" class="link-card link-github">
+        <span class="link-icon">⌥</span>
+        <span class="link-text">
+          <strong>GitHub</strong>
+          <small>github.com/Pedroaruana</small>
+        </span>
+        <span class="link-arrow">→</span>
+      </a>
+
+      <a href="https://www.linkedin.com/in/pedro-aruan%C3%A3-599105322" target="_blank" rel="noopener" class="link-card link-linkedin">
+        <span class="link-icon">in</span>
+        <span class="link-text">
+          <strong>LinkedIn</strong>
+          <small>Pedro Aruanã</small>
+        </span>
+        <span class="link-arrow">→</span>
+      </a>
+
+      <a href="https://portifiolio-pedro.vercel.app" target="_blank" rel="noopener" class="link-card link-portfolio">
+        <span class="link-icon">◆</span>
+        <span class="link-text">
+          <strong>Portfólio</strong>
+          <small>portifiolio-pedro.vercel.app</small>
+        </span>
+        <span class="link-arrow">→</span>
+      </a>
+
+      <a href="mailto:aruanapedro@gmail.com" class="link-card link-email">
+        <span class="link-icon">✉</span>
+        <span class="link-text">
+          <strong>E-mail</strong>
+          <small>aruanapedro@gmail.com</small>
+        </span>
+        <span class="link-arrow">→</span>
+      </a>
+
+    </nav>
+
+    <section class="projects">
+      <h2><span class="eyebrow">// projetos</span> O que eu construí</h2>
+
+      <div class="project-grid">
+
+        <a href="https://github.com/Pedroaruana/HelpDeskEA" target="_blank" rel="noopener" class="project-card">
+          <span class="project-emoji">🖥️</span>
+          <strong>HelpDesk EA</strong>
+          <p>Sistema de suporte de TI com dashboard de métricas em tempo real.</p>
+          <span class="project-tags">Angular · Node.js</span>
+        </a>
+
+        <a href="https://github.com/pedroaruana/nukemap-app" target="_blank" rel="noopener" class="project-card">
+          <span class="project-emoji">☢️</span>
+          <strong>NukeMap App</strong>
+          <p>App mobile com mapa interativo simulando áreas de impacto.</p>
+          <span class="project-tags">React Native · Expo</span>
+        </a>
+
+        <a href="https://github.com/pedroaruana/hiremind-ai" target="_blank" rel="noopener" class="project-card">
+          <span class="project-emoji">🤖</span>
+          <strong>HireMind AI</strong>
+          <p>Análise de currículos com IA — extrai habilidades e dá score.</p>
+          <span class="project-tags">Python · FastAPI</span>
+        </a>
+
+        <a href="https://github.com/Pedroaruana/gamehub" target="_blank" rel="noopener" class="project-card">
+          <span class="project-emoji">🎮</span>
+          <strong>GameHub</strong>
+          <p>E-commerce de jogos digitais inspirado na Steam.</p>
+          <span class="project-tags">JavaScript · FastAPI</span>
+        </a>
+
+      </div>
+    </section>
+
+    <footer>
+      <p class="quote">"O sucesso é a soma de pequenos esforços repetidos dia após dia."</p>
+      <p class="quote-author">– Robert Collier</p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
