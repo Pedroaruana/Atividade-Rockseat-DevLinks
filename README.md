@@ -9,7 +9,7 @@ Projeto final do curso **Discover** da Rocketseat. Uma página de links personal
 - JavaScript
 
 ## Funcionalidades
-
+ .
 - Alternância entre tema escuro e claro
 - Efeito de digitação no terminal
 - Copiar e-mail ao clicar
